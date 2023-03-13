@@ -1,7 +1,7 @@
 ---
 title: Barto-Sutton Chap.11 Off-policy Methods with Approximation
 date: 2023-03-13 07:42:29
-categroy:
+categories:
     - Reading Notes
 tags:
     - RL
@@ -19,6 +19,7 @@ The challenge of off-policy learning:
   * Importance sampling
   * Develop the true gradient methods that don't rely on any special distribution for stability
 
+<!-- more -->
 ## Semi-gradient Methods
 
 **Importance sampling:** $\rho_t \doteq \rho_{t: t}=\frac{\pi\left(A_t \mid S_t\right)}{b\left(A_t \mid S_t\right)}$

@@ -1,6 +1,6 @@
 ---
 title: Barto-Sutton Chap.10 On-policy Control with approximation
-categroy:
+categories:
     - Reading Notes
 tags:
     - RL
@@ -19,6 +19,7 @@ Predict problem: Given a policy, calculate the state value function.
   * TD(0): $U_t = r_t + \gamma \hat V(s_{t+1})$
   * TD($\lambda$): $U_t = G_{t:t+\lambda}$
 
+<!-- more -->
 Control problem: Given a MDP, return the optimal policy.
 
 * Tabular solution: $s_t, a_t \rightarrow Q(s_t, a_t)$
