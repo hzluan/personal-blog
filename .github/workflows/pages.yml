@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Add CName
-        run: echo "blog.beanpow.top" > ./public/CNAME
+        run: echo "hzluan.github.io/blog" > ./public/CNAME
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

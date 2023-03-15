@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Beanpow's Blog
+title: Hongzhou's Blog
 subtitle: ''
 description: ''
 keywords:
-author: Beanpow
-language: zh-CN
+author: Hongzhou Luan
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://blog.beanpow.top
+url: https://hzluan.github.io/blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
